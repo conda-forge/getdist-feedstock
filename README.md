@@ -1,11 +1,11 @@
-About getdist
-=============
+About getdist-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/getdist-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cmbant/getdist
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/getdist-feedstock/blob/main/LICENSE.txt)
 
 Summary: GetDist is a package for analysing Monte Carlo samples.
 
