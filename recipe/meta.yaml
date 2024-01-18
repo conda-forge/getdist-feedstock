@@ -1,5 +1,5 @@
 {% set name = "getdist" %}
-{% set version = "1.4.6" %}
+{% set version = "1.4.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cmbant/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 0f8726e2056cd9c4ad3b84d13e8144fe0113b7a738c9c8d7234bc42720fadf37
+  sha256: 8821edc926c3dafe9aec35842192953114fcf053e412a1d4abdd3b00d0b2246c
 
 build:
   noarch: python
@@ -27,6 +27,7 @@ requirements:
     - matplotlib-base >=2.2.0,!=3.5.0
     - scipy >=1.5.0
     - pyyaml >=5.1
+    - packaging
 
 test:
   commands:
