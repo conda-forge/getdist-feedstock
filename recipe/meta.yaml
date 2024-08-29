@@ -1,5 +1,5 @@
 {% set name = "getdist" %}
-{% set version = "1.4.7" %}
+{% set version = "1.4.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cmbant/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 8821edc926c3dafe9aec35842192953114fcf053e412a1d4abdd3b00d0b2246c
+  sha256: b47c4952858bf085691fe59d7c217b0df8e61dd0ebec30d1b1f26bf6126b4a57
 
 build:
   noarch: python
